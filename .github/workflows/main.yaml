@@ -18,6 +18,6 @@ jobs:
         cache: 'npm'
     - run: npm install
     # - run: npm test
-    - run: npm build
+    - run: npm run build 
       # continue-on-error: true
     - run: ls 

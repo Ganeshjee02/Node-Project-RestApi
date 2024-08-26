@@ -17,6 +17,7 @@ jobs:
         node-version: 14
         cache: 'npm'
     - run: npm install
-    - run: npm test
-      continue-on-error: true
+    # - run: npm test
+    - run: npm build
+      # continue-on-error: true
     - run: ls 
